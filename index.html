@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redimensionar Imagem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Redimensionar Imagem</h1>
+    <input type="file" id="inputImage" accept="image/*">
+    <button id="loadImageButton">Carregar Imagem</button>
+    <br><br>
+    <canvas id="canvasInput" width="300" height="300"></canvas>
+    <canvas id="canvasOutput" width="300" height="300"></canvas>
+    <br><br>
+    <button id="resizeButton">Redimensionar</button>
+    <br><br>
+    <img id="resultImage" src="" alt="Imagem Redimensionada">
+    <script src="https://docs.opencv.org/master/opencv.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
